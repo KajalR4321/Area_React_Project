@@ -5,8 +5,8 @@ const Button = ({ text, link, bgColor, textColor }) => {
   return (
     <a
       href={link}
-      className={`${bgColor} ${textColor} py-4 px-8 text-sm rounded-full 
-      inline-flex items-center gap-2 cursor-pointer`}
+      className={`${bgColor} ${textColor} w-max py-2 px-4 sm:py-2 sm:px-7 text-xs sm:text-sm rounded-full 
+      flex justify-center items-center gap-2 cursor-pointer`}
     >
       <span>{text}</span>
 
