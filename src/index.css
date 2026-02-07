@@ -1,0 +1,53 @@
+ @import 'tailwindcss';
+
+
+
+
+@font-face {
+  font-family: "Crimson Text";
+  src: url('/fonts/CrimsonText-Regular.ttf'), format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url('/fonts/RobotoMono-Regular.ttf'), format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url('/fonts/DMSans_18pt-Regular.ttf'), format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: url('/fonts/DMSans_18pt-Bold.ttf'), format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@theme {
+  --font-dm_sans: "DM Sans";
+  --font-roboto_mono: "Roboto Mono";
+  --font-crimson_text: "Crimson Text";
+  --color-primary: #FFFFFF;
+  --color-accent4: #000000;
+  --color-accent6: #929292;
+  --color-divider1: #E9E9E9;
+  --color-accent2: #DFECC6;
+  --color-accent3: #8E9C78;
+  --color-accent1: #485C11;
+  --color-text: #6f6f6f;
+}
+
+@layer base {
+  .layout {
+    @apply max-w-[95%] md:max-w-[90%] mx-auto w-full
+  }
+}
