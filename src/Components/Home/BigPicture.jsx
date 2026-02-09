@@ -44,7 +44,7 @@ const BigPicture = () => {
                 </div>
 
             </div>
-            <hr className="mt-35 text-accent3"></hr>
+            <hr className="mt-35 text-accent3 " ></hr>
 
         </section>
     );
