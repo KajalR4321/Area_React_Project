@@ -8,6 +8,7 @@ import BigPicture from "../Components/Home/BigPicture";
 import Spaces from "../Components/Home/Spaces";
 import RockPortion from "../Components/Home/Rock";
 import Success from "../Components/Home/Success";
+import HeroImage from "../Components/Home/HeroImage";
 
 
 
@@ -25,6 +26,7 @@ const Home = () => {
       <Spaces />
       <RockPortion />
       <Success />
+      <HeroImage />
 
 
 
