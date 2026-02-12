@@ -9,6 +9,9 @@ import Spaces from "../Components/Home/Spaces";
 import RockPortion from "../Components/Home/Rock";
 import Success from "../Components/Home/Success";
 import HeroImage from "../Components/Home/HeroImage";
+import ConnectSection from "../Components/Home/ConnectSection.jsx";
+
+
 
 
 
@@ -27,6 +30,8 @@ const Home = () => {
       <RockPortion />
       <Success />
       <HeroImage />
+      <ConnectSection />
+
 
 
 
