@@ -1,5 +1,5 @@
 import BigData from "../../Data/BigData";
-import Sofa from "../../assets/Sofa.png";
+import Sofa from "../../assets/sofa.png";
 
 const BigPicture = () => {
     return (
