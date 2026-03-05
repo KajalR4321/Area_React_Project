@@ -1,5 +1,5 @@
 import Ipad from "../../assets/Ipad.png";
-import Iphone from "../../assets/iphone.png";
+import Iphone from "../../assets/iPhone.png";
 
 const Banner = () => {
   return (
