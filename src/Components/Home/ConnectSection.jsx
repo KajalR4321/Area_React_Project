@@ -1,4 +1,4 @@
-import Button from "../Common/Button";
+import Button from "../../Components/Common/Button";
 
 const ConnectSection = () => {
 
